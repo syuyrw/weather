@@ -1,0 +1,1 @@
+document.write(/\d{4}/.exec(Date())[0])

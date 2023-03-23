@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the home page for UC Weather Wiz. The home of finding out what the weather is, and finding things to do in the current weather.">
+    <meta name="Author" content="Jordan Reitz">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <title>Preston Town Page</title>
+  </head>
+  <body>
+    <div id="banner">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    
+    <header>
+        <figure class="site-logo"> 
+            <img src="images/icon.png" alt="site-logo" class="logo">
+        </figure>   
+        <section class="headings">
+            <h1>UC Weather Wiz</h1>
+            <h2>Actively seeking weather activities!</h2>
+        </section>
+    </header>
+
+    <nav>
+<button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li> <a href="index.html">Home</a></li>
+                <li class="active"> <a href="preston.html">Preston</a></li>
+                <li> <a href="soda-springs.html">Soda Springs</a></li>
+                <li> <a href="fish-haven.html">Fish Haven</a></li>
+                <li> <a href="stormcenter.html">Storm Center</a></li>
+                <li> <a href="gallery-7.html">Gallery</a></li>
+
+            </ul>
+    </nav>
+    
+    <main> 
+        <div class="content-grid">
+            <div class="contentbox">
+                <h2 class="heads">Preston Idaho</h2>
+            </div>
+            
+            <div class="weather-summary">
+                <figure class="hero-banner">
+                    <img src="images/small.jpg"
+                    sizes="50vw" 
+                    srcset="images/Large.jpg 700w,
+                    images/medium.jpg 600w,
+                    images/small.jpg 491w"
+                    alt="preston-banner">
+                </figure>
+                <div class="summary">
+                    <h2 class="summary-head">Weather Summary</h2>
+                    <div class="current">
+                        <div class="weather-info-left">
+                            <p>Currently:</p>
+                            <p>High:</p>
+                            <p>Wind Chill:</p>
+                            <p>Humidity:</p>
+                            <p>Wind Speed:</p>
+                        </div>
+                        <div class="weather-info-right">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <section class="forecast">
+                <h2 class="heads">5 Day Forecast</h2>
+                <div class="flex-forecast">
+                    
+                </div>
+            </section>
+
+            <section id="events">
+                <h2>Upcoming Events:</h2>
+                <div class="coming-events">
+
+                </div>
+            </section>
+            
+
+            <div class="article">
+                <h2 class="heads">History of Preston</h2>
+                <div class="article-content">
+                    <p>Twelve years ago, Preston was a town like any other, a relatively quiet part of southern Idaho with a population of just under 5,000 people. Known for That Famous Preston Night Rodeo and its close proximity to the site of the Bear River Massacre, most of the United States would likely have been unable to locate it on a map.</p>
+
+                        <p>Things would change for the small Franklin County town with the release of "Napoleon Dynamite" in 2004. The quotable comedy film written and directed by Preston native Jared Hess became a surprise hit, earning $46.1 million at the box office on a budget of only $400,000. As the site of the film, Preston gained a foothold in pop culture, the Herald Journal reported.</p>
+                    
+                    <figure  class="mountains">
+                        <img src="images/mountains.jpeg" alt="mountains" sizes="50vw"
+                        srcset="images/mountains.jpeg 860w,
+                    images/mountains2.jpeg 430w,
+                    images/mountains3.jpeg 215w">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h2 class="heads">Contact Information</h2>
+                <div class="contact">   
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77387293598!2d-111.91543018056045!3d42.09974160028752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1651720128662!5m2!1sen!2sus" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="contact-info">
+                        <p>Phone: 888-888-8888</p>
+                        <p>Email: prestonidaho@contactless.com</p>
+                        <p>Address: 888 Preston Drive, Idaho</p>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+    </main>   
+    
+    <footer>
+        <p>
+          "©<script src="js/year.js"></script> | Jordan Reitz | United States  "
+          <a href="https://byui.edu/online">BYUI Online Learning</a>
+          <script src="js/date.js">
+          </script>
+        </p>
+    </footer>
+    
+    <script src="js/button.js"></script>
+    <script src="js/weatherapipreston.js"></script>
+    <script src="js/5daycastpreston.js"></script>
+
+    <script src="js/friday-banner.js"></script>
+  </body>
+</html>  

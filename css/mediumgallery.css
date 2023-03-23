@@ -1,0 +1,57 @@
+@media only screen and (min-width: 45em) {
+    h1 {
+        font-size: 2.5rem;
+        margin: 0.14rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .headings h1 {
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+    .headings h2 {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    
+    
+
+    header, footer {
+        border-radius: 10px;
+    }
+
+
+    .heads {
+        height: 60px;
+        font-size: 28px;
+    }
+
+    .mountains {
+        float: top;
+    }
+
+    .content {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

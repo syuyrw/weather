@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+:root {
+    --blue: darkblue;
+    --lightblue: lightblue;
+    --gray: gray;
+    --darkgray: darkgray;
+}
+
+.wind {
+    color: black;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+nav {
+    margin: 0 auto;
+    background-color: #76B2D3;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+
+main figure.hero-banner {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main figure.hero-banner img {width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+main p {
+    color: black;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+.responsive li {
+    display: block;
+}
+
+
+
+body {
+    background-color:white;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Open Sans";
+    color: black;
+    height: 100%;
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+.weather-story {
+    padding: 1rem;
+    text-align: left;
+    background-color: #76B2D3;
+    border-radius: 1ch;
+    border-style: solid;
+    border-color: #358dc0;
+}
+
+.story-img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    text-decoration-color: black;
+    margin-top: 1rem;
+}
+
+.cities {
+    margin-bottom: 1rem;
+    background-color: #76B2D3;
+    border-radius: 1ch;
+    text-align: center;
+    height: auto;
+
+    border-style: solid;
+    border-color: #358dc0;
+}
+
+.cities img {
+    max-width: 95%;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.containI {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1ch;
+}
+
+.containP {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size:medium;
+    color: white;
+    background-color: #358dc0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+;
+}
+
+.cities h2 {
+    font-size: large;
+}
+
+.cities q {
+    font-size: small;
+}
+
+.cities:hover {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.contact-info {
+    margin-bottom: 1rem;
+    background-color: #76B2D3;
+    border-radius: 1ch;
+    text-align: center;
+    height: auto;
+    border-style: solid;
+    border-color: #358dc0;
+}
+
+.map {
+    max-width: 90%;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #358dc0;
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #358dc0;
+    color: #fff;
+}
+
+
+
+.headings h1 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.headings h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    justify-content: center;
+}
+
+p {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+footer {
+    
+    min-height:50px;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+footer p {
+    color: black;
+}
+
+footer script {
+    color: #333;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+main figure.hero-banner {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main figure.hero-banner img {width: 100%;
+}
+
+
+
+footer a {
+    color: black;
+}
+
+
+
+
